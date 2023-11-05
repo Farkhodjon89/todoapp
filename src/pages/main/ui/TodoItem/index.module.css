@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    word-break: break-all;
+}
+
+.checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.delete {
+    margin-left: auto;
+    cursor: pointer;
+}
