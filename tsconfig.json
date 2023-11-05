@@ -13,7 +13,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-
+    "baseUrl": "src",
+    "paths": {
+      "app/*": ["app/*"],
+      "entities/*": ["entities/*"],
+      "pages/*": ["pages/*"],
+    },
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
