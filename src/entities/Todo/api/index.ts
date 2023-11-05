@@ -1,4 +1,4 @@
-import {AppDispatch} from "src/app/store";
+
 import axios from "axios";
 import {Todo, TodoApi} from "../model/types.ts";
 import {
@@ -9,6 +9,7 @@ import {
     todosFetchingSuccess,
     toggleTodo,
 } from "../model";
+import {AppDispatch} from "app/store";
 
 export const TodosService = {
     fetchTodos: () => async (dispatch: AppDispatch) => {

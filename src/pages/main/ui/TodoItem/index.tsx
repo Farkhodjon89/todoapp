@@ -1,7 +1,7 @@
-import {Todo} from "src/entities/Todo/model/types";
 import styles from "./index.module.css";
 import {useTypedDispatch} from "app/redux";
 import {TodosService} from "entities/Todo/api";
+import {Todo} from "entities/Todo/model/types";
 
 const TodoItem = ({todo: {text, completed, id}}: { todo: Todo }) => {
     const dispatch = useTypedDispatch();

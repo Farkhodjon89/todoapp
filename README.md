@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Todo App - React
+Simple Todo App refactored to React with TypeScript and Redux-Toolkit for state management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💡 Concept
+A simplep CRUD app made to exercise with TypeScript in React and Redux-Toolkit as a state management tool.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Project overview
+A simple, popular CRUD web app. User can add positions to list, toggle completed ones or delete them, filter only those completed or active or clear all the completed list items.
+Dark/Lightmode is available for the application.
 
-## Expanding the ESLint configuration
+## 📦 Tech stack:
+- React.js with Hooks
+- Vite
+- TypeScript
+- Redux-Toolkit
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💻 Demo
+Click the link and check the app: [Link](https://ms-todo-app-react.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+### Screenshot
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+![](./src/assets/screenshot.JPG)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 💾 Installation
+git clone https://github.com/marcinsuski/todo-app-react.git <br>
+npm install<br>
+npm run dev // for localhost server<br>
+npm run build // to create a build<br>
+
+## ☎️ Contact
+In case of any comments or advice, You can e-mail me or use Issues :)
+
+## 🧙‍♂️ Author
+- GitHub - [Marcin Suski](https://github.com/marcinsuski)
+- LinkedIn - [marcin-suski](https://www.linkedin.com/in/marcin-suski/)
+- Porftolio - [marcinsuski.pl](https://marcinsuski.pl)
